@@ -30,7 +30,8 @@ import java.util.concurrent.LinkedBlockingDeque;
 public class SubscriberExample {
 
   // use the default project id
-  private static final String PROJECT_ID = ServiceOptions.getDefaultProjectId();
+  //private static final String PROJECT_ID = ServiceOptions.getDefaultProjectId();
+  private static final String PROJECT_ID = "emerald-city-215518";
 
   private static final BlockingQueue<PubsubMessage> messages = new LinkedBlockingDeque<>();
 
